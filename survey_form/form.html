@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey-Form</title>
+  </head>
+  <body>
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform
+</p>
+<form method="post" id="survey-form" >
+<fieldset>
+  <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+  <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+  <label id="number-label">Age (optional) <input id="number" min="18" max="100" type="number" placeholder="Age"/></label>
+  </fieldset>
+  <fieldset>
+  <label for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown"/> 
+  <option value="">Select current role</option>
+  <option value="1">Student</option>
+  <option value="2">Full Time Job</option>
+  <option value="3">Prefer not to say</option>
+  <option value="4">Others</option>
+  </select>
+ 
+  </fieldset><fieldset>
+  <label>Would you recommend this to a friend?</label>
+  <label for="definitely-radio"><input type="radio" value="a" name="radio-group" id="definitely-radio" class="inline" checked/>Definitely</label>
+  <label for="maybe-radio"><input id="maybe-radio" type="radio" value="b" name="radio-group" class="inline"/>Maybe</label>
+  <label for="not-sure-radio"><input id="not-sure-radio"type="radio" value="c" name="radio-group" class="inline"/>Not Sure
+  </label>
+  </fieldset><fieldset>
+  <p>What would you like to see improved? <span>(Check all that apply)</span></p>
+<input type="checkbox" value="1"/>Front-end Projects
+<br>
+<input type="checkbox" value="2"/>Back-end Projects<br>
+
+<input type="checkbox" value="3"/>Data Visualization<br>
+<input type="checkbox" value="4"/>Challenges<br>
+<input type="checkbox" value="5"/>Open Source Community<br>
+<input type="checkbox" value="6"/>Gitter help rooms<br>
+<input type="checkbox" value="7"/>Videos
+</fieldset><fieldset>
+<label for="comments">Any comments or suggestions?</label>
+  <textarea placeholder="Enter your comment here..." rows="3" cols="20" id="comments"></textarea>
+  </fieldset>
+
+  <input type="submit" value="Submit" id="submit"/>
+
+</form>
+  </body>
+</html>
