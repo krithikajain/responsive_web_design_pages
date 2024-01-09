@@ -1,0 +1,49 @@
+body{
+    font-family:Arial, sans-serif;
+    width:100%;
+    font-size:1.2rem;
+    text-align:center;
+  margin:0;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  #main{
+    margin:50px;
+    padding:15px;
+    background-color:#eee;
+    }
+  section>ul, section>p{
+    text-align:left;
+    padding:15px;
+  }
+  li{
+    margin:20 auto;
+  }
+  img{
+    max-width:100%;
+    display:block;
+    height:auto;
+    margin:0 auto;
+    justify-content:center;
+  }
+  blockquote {
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto 500px auto;
+    text-align: left;
+  }
+  div{
+    background-color:black;
+  }
+  #img-caption{
+    color:white;
+    font-size:0.8rem;
+    padding:12px;
+    font-style:italic;
+  }
