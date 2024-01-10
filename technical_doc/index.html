@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title> Technical Documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Basics of JS</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_you_should_already_know?">What you should already know?</a></li>
+        <li><a class="nav-link" href="#hello_world!">hello world!</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Datatypes">Datatypes</a></li>
+        <li><a class="nav-link" href="#if-else_statement">if-else statement</a></li>
+        <li><a class="nav-link" href="#for_loops">for loops</a></li>
+        <li><a class="nav-link" href="#while_loop">while loop</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Learn_more">Learn more</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header id="intro">Introduction</header>
+        <p>JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.</p>
+      <ul id="intro-list">
+        <li><strong>Client-side:</strong> It supplies objects to control a browser and its Document Object Model (DOM). Like if client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation. Useful libraries for the client side are AngularJS, ReactJS, VueJS, and so many others.</li>
+        <li><strong>Server-side:</strong> It supplies objects relevant to running JavaScript on a server. For if the server-side extensions allow an application to communicate with a database, and provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. The useful framework which is the most famous these days is node.js.</li>
+        </ul></section>
+      <section class="main-section" id="What_you_should_already_know?">
+        <header>What you should already know?</header>
+        <article>
+          <p>Assuming that you have the basic knowledge</p>
+          <ul>
+          <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+          <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+          <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+          </ul></article></section>
+      <section class="main-section" id="hello_world!"><header>hello world!</header><article>
+        <p>Get started with javascript!!</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+        </article></section>
+      <section class="main-section" id="Variables"><header>Variables</header><p>
+        You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+        </p>
+        <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+        <p>They are created using the var, let, or const keyword.</p>
+        </section>
+      <section class="main-section" id="Datatypes" ><header>Datatypes</header><p>
+        <ul> Primitive Data Types<ul>
+          <li><strong>Number</strong> Script numbers are always stored in double-precision 64-bit binary format IEEE 754. Unlike other programming languages, you don’t need int, float, etc to declare different numeric values.</li>
+          <li><strong>String</strong> they are made up of a list of characters, which is essentially just an “array of characters.</li>
+          <li><strong>Boolean</strong> True or False</li>
+          <li><strong>Null</strong> has only one value null.</li>
+          <li><strong>Undefined</strong> a variable that has not been assigned any value</li>
+          <li><strong>Symbol</strong> unique identifiers</li>
+        </ul>
+        Non-Primitive Datatype
+        <ul>
+          <li><strong>Object</strong> most important data type and forms the building blocks for modern JavaScript</li>
+        </ul>
+        </ul>
+      </p></section>
+      <section class="main-section" id="if-else_statement">
+        <header>if-else statement</header>
+        <article><p>
+          Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows: </p>
+          <code>if (condition) { statement_1; } else { statement_2; }
+</code>
+<p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:
+</p>
+<code>if (condition_1) { statement_1; } else if (condition_2) {
+statement_2; } else if (condition_n) { statement_n; } else {
+statement_last; }</code>
+          </article></section>
+      <section class="main-section" id="for_loops"><header>for loops</header>
+      <article><p>Looping in programming languages is a feature that facilitates the execution of a set of instructions repeatedly until some condition evaluates and becomes false. </p>
+      <p>for loop is used to iterate the elements for a fixed number of times. JavaScript for loop is used if the number of the iteration is known.</p>
+      
+      <code>for (statement 1 ; statement 2 ; statement 3){
+    code here...
+}</code>
+<ol>
+  <li>It is the initialization of the counter. It is executed once before the execution of the code block.</li>
+  <li>It defines the testing condition for executing the code block</li>
+  <li>It is the increment or decrement of the counter & executed (every time) after the code block has been executed.</li>
+  <ol>
+      </article></section>
+      <section class="main-section" id="while_loop"><header>while loop</header>
+      <article>
+<p>
+  A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
+</p>
+<code>while (condition) statement
+</code>
+<p>If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+</p>
+      </article>
+      </section>
+      <section class="main-section" id="Functions"><header>Functions</header>
+      <article>
+        A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+        <ul>
+<li>The name of the function.</li>
+<li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+<li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
+          </ul>
+      <p>For example, the following code defines a simple function named square:</p>
+      <code>function square(number) { return number * number; }
+</code>
+<p>The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
+</p>
+<code>
+  return number * number;
+</code>
+<p>
+  Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
+  </p>
+      </article></section>
+      <section class="main-section" id="Learn_more">
+        <header>Learn more</header>
+        <article>
+          <ul>
+            <li>To get more in depth and a clear understanding you can refer
+            <a href="https://www.geeksforgeeks.org/javascript/?ref=shm">GeeksForGeeks</a></li></ul>
+          </article>
+        </section>
+
+    </main>
+  </body>
+</html>
