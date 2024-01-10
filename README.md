@@ -1,10 +1,13 @@
 # responsive_web_design_pages
  
 ### survey form
-This web page contains a survey form using basic html and css.
+This web page contains a survey form using basic HTML and CSS.
 
 ### tribute page
-This web page contains facts about Indian Investor created using html and css. 
+This web page contains facts about Indian investor "Rakesh Jhunjunwala" created using html and CSS. 
 
 ### documentation page
 This is a sample JS documentation page, to learn navigation and alignment of text.
+
+### product landing page
+As the name describes, this product is a smart gym, here I have  learned to implement video, bootstrap, and media queries.
