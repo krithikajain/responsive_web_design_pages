@@ -15,3 +15,4 @@ As the name describes, this product is a smart gym, here I have  learned to impl
 ### ferris wheel
 1. create div for cabin and span for line
 2. magic happens in styles.css
+   --> used @keyframes - to specify the intermediate steps in a CSS animation sequence
