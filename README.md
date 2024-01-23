@@ -11,3 +11,7 @@ This is a sample JS documentation page, to learn navigation and alignment of tex
 
 ### product landing page
 As the name describes, this product is a smart gym, here I have  learned to implement video, bootstrap, and media queries.
+
+### ferris wheel
+1. create div for cabin and span for line
+2. magic happens in styles.css
