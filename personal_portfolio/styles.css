@@ -1,0 +1,45 @@
+.links{
+    text-decoration: none;
+    color: white;
+}
+#navbar{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav{
+    transition:all 0.3s ease;
+}
+
+img{
+    width: 157px;
+    height: 250px;
+}
+
+.card-title{
+    padding:5px;
+    margin-bottom:10px; 
+}
+#projects{
+    margin: auto;
+    padding: 10px;
+}
+
+.list-items{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 8px 2px 8px;
+    font-size: 2em;
+    color: black;
+}
+.list-items i{
+    color: black;
+    font-size: 68% ;
+}
+
+@media screen and (max-width:760px) {
+    .navbar{
+        display:none;
+    }
+}

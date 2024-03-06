@@ -1,0 +1,11 @@
+.home-content {
+    margin: 68px;
+    padding: 75px 50px 15px 50px;
+}
+
+#about {
+    min-height: 50vh;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 100px;
+}
