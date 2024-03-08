@@ -1,11 +1,25 @@
 .home-content {
     margin: 68px;
-    padding: 75px 50px 15px 50px;
+    padding: 115px 50px 5px 100px;
 }
-
+.home-des p{
+    padding: 20px;
+    a{
+        text-decoration: none;
+    }
+}
 #about {
     min-height: 50vh;
     margin: auto;
     max-width: 1000px;
     padding-top: 100px;
 }
+
+.home-pic img{
+    width: 450px;
+    height: 580px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 45px;
+}
+

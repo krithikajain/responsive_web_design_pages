@@ -12,15 +12,7 @@
     transition:all 0.3s ease;
 }
 
-img{
-    width: 157px;
-    height: 250px;
-}
 
-.card-title{
-    padding:5px;
-    margin-bottom:10px; 
-}
 #projects{
     margin: auto;
     padding: 10px;
